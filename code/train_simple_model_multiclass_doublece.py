@@ -1,3 +1,10 @@
+############################# train simple model multiclass doublece ##################
+###
+### Code for training the simple multiclass model
+### Author: Bojan Kolosnjaji
+###############################################################################
+
+
 import os
 import time
 import argparse

@@ -1,3 +1,11 @@
+############################# attack greybox simple model doublece ##################
+###
+### Code for the greybox label poisoning attack on the simple model
+### Author: Bojan Kolosnjaji
+###############################################################################
+
+
+
 import os
 import time
 import argparse
@@ -289,7 +297,7 @@ def main():
                     test_scores.append((test_loss, acc, f1_score, precision, recall, auc_score))
 
                 test_scores_annotators.append(test_scores) # add for this annotator
-                pickle.dump(test_scores_annotators, open('attack_simple_greybox_test_scores_{0}_{1}_{2}_{3}_1_30052023.bin'.format(current_fold, iteration, args.lmd, args.percent_gt), 'wb+'))  # save current results
+                pickle.dump(test_scores_annotators, open('attack_simple_greybox_test_scores_{0}_{1}_{2}_{3}_1.bin'.format(current_fold, iteration, args.lmd, args.percent_gt), 'wb+'))  # save current results
             current_fold+=1
     
         

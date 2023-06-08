@@ -1,3 +1,9 @@
+############################# train full expertise doublece ##################
+###
+### Code for training the full expertise multiclass model
+### Author: Bojan Kolosnjaji
+###############################################################################
+
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning) 
 

@@ -1,3 +1,12 @@
+############################# train full expertise model doublece ##################
+###
+### Code for training the full expertise model
+### Author: Bojan Kolosnjaji
+###############################################################################
+
+
+
+
 import os
 import time
 import argparse

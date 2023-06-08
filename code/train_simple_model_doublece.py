@@ -1,7 +1,9 @@
-################################################ train_simple_model_ceannotation.py ############################################
-## author: Bojan
-## purpose: Script for training and testing the simple model for aggregating annotations, with cross entropy loss for both ground truth and the annotations
-## creation date: 11.06.2021
+############################# train simple model doublece ##################
+###
+### Code for training the simple model
+### Author: Bojan Kolosnjaji
+###############################################################################
+
 
 
 import os

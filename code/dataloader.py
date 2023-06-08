@@ -1,3 +1,10 @@
+############################# dataloader ##################
+###
+### Data loader for label-efficient and robust learning from multiple experts
+### Author: Bojan Kolosnjaji
+###############################################################################
+
+
 import h5py
 import pandas as pd
 import torch

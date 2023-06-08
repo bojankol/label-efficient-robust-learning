@@ -1,3 +1,10 @@
+############################# attack full expertise doublece ##################
+###
+### Code for the label poisoning attack on the full expertise model
+### Author: Bojan Kolosnjaji
+###############################################################################
+
+
 import os
 import time
 import argparse
@@ -296,7 +303,7 @@ def main():
 
                 test_scores_annotators.append(test_scores) # add for this annotator
                 
-                pickle.dump(test_scores_annotators, open('attack_full_test_scores_{0}_{1}_{2}_{3}_30052023.bin'.format(current_fold, iteration, args.lmd, args.percent_gt), 'wb+')) # save current results
+                pickle.dump(test_scores_annotators, open('attack_full_test_scores_{0}_{1}_{2}_{3}.bin'.format(current_fold, iteration, args.lmd, args.percent_gt), 'wb+')) # save current results
 
 
             current_fold += 1
